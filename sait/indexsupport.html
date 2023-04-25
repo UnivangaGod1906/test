@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/support.css" />
+    <title>Forest</title>
+  </head>
+  <body class="sec-body">
+    <div class="icon">
+        <a class="icon" href="index.html"><img src="images/logom_icon.jpg" width="130px" height="140px"></a></div>
+    <div class="heroes">
+        <div class="layer1">
+          <div>
+        <a href="https://www.leagueofgraphs.com/champions/builds/thresh"><img class="animation" src="images/SpiritBlossomThresh_FINAL.0.jpg"  id="img1" width="250" /></a>
+      </div>
+      <div>
+        <a href="https://www.leagueofgraphs.com/champions/builds/morgana"><img class="animation" src="images/Morgana_0.jpg" id="img2" width="250" /></a>
+        </div>
+    </div>
+    <div class="layer2">
+      <div>
+        <a href="https://www.leagueofgraphs.com/champions/builds/seraphine"><img class="animation" src="images/Seraphine_0.jpg" id="img4" width="300" /></a>
+      </div>
+      <div>
+        <a href="https://www.leagueofgraphs.com/champions/builds/ashe"><img class="animation" src="images/Ashe_0.jpg" id="img3" width="500" /></a>
+      </div>
+    </div>
+    </div>
+  </div>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script>
+      $(".animation")
+        .width(250)
+        .hover(
+          function () {
+            $(this).stop().animate({ width: 300 });
+          },
+          function () {
+            $(this).stop().animate({ width: 250 });
+          }
+        );
+    </script>
+  </body>
+</html>

@@ -1,0 +1,139 @@
+body{
+    background-image: url(fon/mordekaizer.jpg);
+    background-size: 125%;
+    backdrop-filter: blur(5px);
+}
+.welcome{
+  font-family: Roboto, Arial, sans-serif;
+  font-size: auto;
+  color: #ddd;
+}
+.topp{
+
+    height: auto;
+    text-align: center;
+    color: rgb(224, 26, 8);
+    margin-left: 0px;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background: linear-gradient(-45deg, #ee3b3b, #3c61e7, #23a6d5, #23d5ab);
+    animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+  
+.leftp{
+    width: 200px;
+    height: auto;
+    color: beige;
+    margin-right: 0px;
+}
+.dropbtn {
+    background-color: #f13636;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+.centerp{
+  width: 8000px;
+    color: rgb(227, 253, 61);
+    height: 500px;
+    margin: 0px;
+    font-size: 24px;
+    max-width: 10000px;
+    height: auto;
+
+}
+.flex_center {
+    display: flex;
+    margin-right: 0px;
+}
+.flex_left {
+    display: flex;
+}
+.icon{
+    color: azure;
+    height: 120px;
+    width: 135px;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    
+}
+.heroes {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+.layer1{
+  float: left;
+  text-align: center;
+
+}
+.layer2{
+  float: left;
+  text-align: center;
+}
+
+.bottomp{
+  color: antiquewhite;
+  text-align: center;
+  max-width: 100%;
+  max-height: 100%;
+
+}
+.movie {
+  height: auto;
+  margin-left:  150px;
+  margin-right: auto;
+  margin-top: 30px;
+  max-width: 400px;
+  text-align: center;
+}
+.tablo{
+  margin: none;
+}
+.undervideo{
+  padding-left: 35%;
+  font-family: Impact, fantasy;
+}
